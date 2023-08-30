@@ -13,4 +13,4 @@ jobs:
 
     - name: Criar um arquivo no /tmp
       run: |
-        echo 'teste de criação de arquivo' > /tmp/thiagoteste.txt
+        echo 'Teste 2' > /tmp/thiago-30-08.txt
