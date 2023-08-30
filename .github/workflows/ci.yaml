@@ -1,0 +1,16 @@
+name: CI for FastAPI
+
+on:
+  push:
+    branches:
+      - master
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Criar um arquivo no /tmp
+      run: |
+        echo 'teste de criação de arquivo' > /tmp/thiagoteste.txt
